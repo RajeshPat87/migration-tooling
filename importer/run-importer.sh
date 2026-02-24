@@ -71,8 +71,7 @@ run_audit() {
     --azure-devops-access-token "$ADO_ACCESS_TOKEN" \
     --azure-devops-organization "$ADO_ORGANIZATION" \
     --azure-devops-project "$ADO_PROJECT" \
-    --github-access-token "$GH_ACCESS_TOKEN" \
-    --github-organization "$GH_ORGANIZATION"
+    --github-access-token "$GH_ACCESS_TOKEN"
 
   echo ""
   echo "✅ Audit complete → $OUTPUT_BASE/audit"
