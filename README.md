@@ -91,16 +91,16 @@ helm version          # Helm 3.x
 python3 --version     # Python 3.x
 
 # Required env vars
-export ADO_PAT="9wWrfFrVbRolouT75W3KfvJLROgOpuWzKawBBhstzjI2AcwZD76CJQQJ99CBACAAAAAksXv0AAASAZDO2jhf"
-export ADO_ORG="RajeshPatibandla"
-export ADO_PROJECT="AKS"
-export GH_PAT="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"
-export GH_ORG="RajeshPat87"
-export AZURE_CREDENTIALS='{"clientId":"f3714cae-5dad-446d-bab4-67691c40c66e","subscriptionId":"fde7e51a-4a45-4843-b161-b4193587c43d","tenantId":"d57df211-4f37-47c0-81ed-dd6296f7638c"}'
-export ACR_NAME="acrdevw52one"
-export ACR_LOGIN_SERVER="acrdevw52one.azurecr.io"
-export AKS_CLUSTER="aks-dev-eus"
-export AKS_RG="rg-aks-dev-eus"
+export ADO_PAT=""
+export ADO_ORG=""
+export ADO_PROJECT=""
+export GH_PAT=""
+export GH_ORG=""
+export AZURE_CREDENTIALS=''
+export ACR_NAME=""
+export ACR_LOGIN_SERVER=""
+export AKS_CLUSTER=""
+export AKS_RG=""
 ```
 
 ### Step 1 — One-time bootstrap (creates GH repos, sets secrets, does initial mirror)
